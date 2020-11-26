@@ -30,7 +30,7 @@ class MainFragment : BaseFragment<MainViewModel, FragmentMainBinding>() {
                 R.id.menu_main -> mainViewpager.setCurrentItem(0, false)
             }
         }
-//        mainBottom.interceptLongClick(R.id.menu_main)
+        mainBottom.interceptLongClick(R.id.menu_main)
     }
 
     override fun createObserver() {
