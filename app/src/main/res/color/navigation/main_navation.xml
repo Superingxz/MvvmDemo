@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/mainfragment"
-        android:name="com.anjiu.demo.ui.fragment.MainFragment"
+        android:name="com.ruanjie.camp.ui.fragment.MainFragment"
         android:label="HomeFragment">
     </fragment>
 </navigation>

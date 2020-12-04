@@ -9,7 +9,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "com.anjiu.demo"
+        applicationId "com.anjiu.camp"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 19
@@ -106,7 +106,7 @@ dependencies {
     implementation 'com.tencent:mmkv:1.0.22'
     //项目核心框架
 //    implementation project(path: ':JetpackMvvm')
-    implementation 'me.hegj:JetpackMvvm:1.1.9'
+    implementation 'me.hegj:JetpackMvvm:1.2.0'
     //轮播图
     implementation 'com.github.zhpanvip:BannerViewPager:3.1.5'
     //BaseAdapter
